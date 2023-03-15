@@ -16,7 +16,16 @@
       box-sizing: inherit;
     }
     body{
-      background-color: lime;
+      background-color: rgb(235, 240, 235);
+    }
+    div{
+      border:thin solid blue;
+    }
+    #alert{
+      color:red;
+    }
+    #newalert{
+      color:rgb(0, 255, 76);
     }
   </style>
 </head>
@@ -25,7 +34,9 @@
 <p>This is exercise 7.1.  I am working on this stuff.</p>
 
   <div>
-    <p>This is Take new information</p>
+    <p>This is Take<span id="alert" >Alert</span> new information</p>
+  </div>
+   <div>
+    <p>This is Make<span id="newalert" >Alert</span> new information</p>
   </div>
 </body>
-</html>
